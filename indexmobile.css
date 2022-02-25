@@ -1,0 +1,120 @@
+@charset "utf-8";
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,body{ width: 100%;height:100%;}
+body{
+	font-family: "microsoft yahei",arial;
+	font-size:14px;
+	color:#fff;
+	background: url(../img/mc_bg.webp) no-repeat center 68%;
+	background-size:cover;
+	text-align: center;
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6{font-weight: normal;padding:0;margin:0;}
+a,a:hover,a:link,a:active,a:visited{text-decoration: none;color:#fff;}
+
+/*按钮部分*/
+.list-box{position:absolute;bottom:3%;width:100%;z-index:1;}
+.box_ky{background: url(../img/btn_ku.webp) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;
+				width:73%;margin:0 auto;margin-bottom:5%;}
+.box_jiuzhou{background: url(../img/btn_jiuzhou.png) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;}
+.box_ky h2{font-size:1.5em;letter-spacing: 0.2em;padding-top:3%;}
+.box_ky h2 img{width:90%;margin:0 auto;}
+.box_ky .desc{padding:4% 0;font-size:1.2em;}
+.box_ky .desc img{padding-right:5px;}
+
+/*弹窗*/
+.outshadow{width:100%;height:100%;position:absolute;z-index:50;display:none;}
+.popup{margin: 0 auto;position:relative;margin-top:40%;width:75%;background:url(../img/popup.png) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;z-index: 100;}
+.popup h3{font-size: 1.4em;padding-top: 5%;letter-spacing: 3px;}
+.popup .popbt{text-align: center;width: 35%;display: inline-block;}
+.popup .popbt .pop_btn{background:url(../img/btn1.png) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;display:inline-block;font-size: 1.4em;letter-spacing: 7px;padding: 3% 15%;margin-top: 20%;margin-bottom: 20%;text-align: right;}
+.popup .popbt .give_up{background:url(../img/btn2.png) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;}
+
+
+@media only screen and (min-width:768px ) {
+	.box_ky h2{font-size:3em;letter-spacing: 0.2em;padding-top:4%;}
+	.box_ky .desc{font-size:2em;}
+	
+	.popup h3{font-size: 2.7em;padding-top: 5%;letter-spacing: 0.2em;}
+	.popup .popbt .pop_btn{font-size: 2.6em;}
+}
+
+@media only screen and (max-width:768px ) {
+	.box_ky h2{font-size:2.6em;letter-spacing: 0.2em;padding-top:4%;}
+	.box_ky .desc{font-size:2.4em;}
+	
+	.popup h3{font-size: 2.7em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 2.4em;}
+}
+
+@media only screen and (max-width:750px ) {
+	.box_ky h2{font-size:2.6em;letter-spacing: 0.2em;padding-top:4%;}
+	.box_ky .desc{font-size:1.7em;}
+	.box_ky .desc img{height:40px;}
+	
+	.popup h3{font-size: 2.5em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 2.3em;}
+}
+
+
+@media only screen and (max-width:640px ) {
+	.box_ky h2{font-size:2.4em;letter-spacing: 0.2em;padding-top:4%;}
+	.box_ky .desc{font-size:1.7em;}
+	.box_ky .desc img{height:37px;}
+	
+	.popup h3{font-size: 2.1em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 1.9em;}
+}
+
+@media only screen and (max-width:600px ) {
+	.box_ky h2{font-size:2em;letter-spacing: 0.1em;padding-top:4%;}
+	.box_ky .desc{font-size:1.4em;}
+	.box_ky .desc img{height:32px;}
+	
+	.popup h3{font-size: 1.8em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 1.6em;}
+}
+
+
+@media only screen and (max-width:480px ) {
+	.box_ky h2{font-size:1.8em;letter-spacing: 0.1em;padding-top:4%;}
+	.box_ky .desc{font-size:1.3em;}
+	.box_ky .desc img{height:30px;}
+	
+	.popup h3{font-size: 1.6em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 1.4em;}
+}
+
+@media only screen and (max-width:440px ) {
+	.box_ky h2{font-size:1.6em;letter-spacing: 0.1em;padding-top:4%;}
+	.box_ky .desc{font-size:1.2em;}
+	.box_ky .desc img{height:28px;}
+	
+	.popup h3{font-size: 1.4em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 1.2em;}
+}
+
+
+@media only screen and (max-width:380px ) {
+	.box_ky h2{font-size:1.4em;letter-spacing: 0.1em;padding-top:4%;}
+	.box_ky .desc{font-size:1.1em;}
+	.box_ky .desc img{height:20px;}
+	
+	.popup h3{font-size: 1.2em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 1em;}
+}
+
+
+@media only screen and (max-width:320px ) {
+	.box_ky h2{font-size:1.1em;letter-spacing: 0.1em;padding-top:4%;}
+	.box_ky .desc{font-size:0.8em;}
+	.box_ky .desc img{height:20px;}
+	
+	.popup h3{font-size: 1em;padding-top: 5%;letter-spacing: 3px;}
+	.popup .popbt .pop_btn{font-size: 0.8em;}
+}
