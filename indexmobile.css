@@ -19,7 +19,7 @@ a,a:hover,a:link,a:active,a:visited{text-decoration: none;color:#fff;}
 
 /*按钮部分*/
 .list-box{position:absolute;bottom:3%;width:100%;z-index:1;}
-.box_ky{background: url(https://raw.githubusercontent.com/THA1688/tha16888-1/gh-pages/btn_ku.webp) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;
+.box_ky{background: url(https://raw.githubusercontent.com/THA1688/tha16888-1/gh-pages/popup.png) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;
 				width:73%;margin:0 auto;margin-bottom:5%;}
 .box_jiuzhou{background: url(https://raw.githubusercontent.com/THA1688/tha16888-1/gh-pages/btn_jiuzhou.png) no-repeat;background-size:100% 100%;-moz-background-size:100% 100%;}
 .box_ky h2{font-size:1.5em;letter-spacing: 0.2em;padding-top:3%;}
